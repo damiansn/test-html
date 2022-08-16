@@ -1,0 +1,500 @@
+/* Quito márgenes y rellenos a la página - Fondo de pantalla */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(/img/mate2.png);
+    background-attachment: fixed;
+    background-repeat: repeat ;
+    background-size: 5%;
+    opacity: 98%;     
+    overflow-x: hidden;
+}
+
+/* Header de fondo negro, letra blanca y con linea horizontal abajo */
+header {
+    background-color:rgba(187, 187, 187, 0.87);
+    color: black;
+    border-bottom-style: solid;
+    border-bottom-color:  rgb(24, 116, 221);
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+/* MATE se va a visualizar con fondo rojo, ejemplo Rosamonte */
+header h1 {
+    background-color:rgba(187, 187, 187, 0.87);
+    margin: 0px;
+    color: rgb(24, 116, 221);
+}
+
+/* EL se va a visualizar con fondo negro, ejemplo Rosamonte */
+header h1 span {
+    background-color:rgb(24, 116, 221);
+    color: white;    
+}
+
+/* El H1 deja de ser un blocke, para compartir en la misma linea el menu de la barra de navegación */
+header h1 {
+    display: inline-block;
+}
+
+/* Menu de navegacion a la derecha del header y con margen suficiente para alinearlo con la algura del logo */
+header nav {
+    margin-top: 25px;
+    float: right;
+}
+.clear {
+    clear: both;
+}
+
+/* Posicion de las opciones del navegador*/
+header nav {
+    margin-top: 7px;
+    margin-right: 25px;   
+}
+
+/* Posicion de las opciones del navegador*/  
+nav ul li {
+    margin: 0px 5px 0 0;
+    padding: 0;
+    float:left;
+}
+
+/* Apariencia de las opciones del navegador*/
+nav ul li a {
+    display: block;
+    position: relative;
+    padding: 3px 10px;
+    border: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+/* Quita el formato de lista*/
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+
+  /* Comportamiento de los enlaces con el puntero */
+nav ul li a:hover {
+    color: rgb(24, 116, 221);
+}
+
+  /*Distancia del section con respecto al header*/
+section{
+      margin-top: 0%;
+      display: inline-block;
+}
+
+ /*Aside fijo*/ 
+aside{
+      position: sticky;
+      top: 12%;
+      right: 2%;
+      float: right;
+      width: 230px;
+      height: 45px;
+      margin: 15px 0 0 0px;
+      opacity: 40%;
+      background: white;
+      border-style: solid ;
+      border-width: 2px;
+      border-color: black;
+      border-bottom-color: rgb(24, 116, 221); 
+      border-bottom-width: 3px;
+      padding-top: 3px;
+}
+  aside a :hover{
+      background:rgb(24, 116, 221);
+}
+
+  /*PRIMER ARTICLE*/
+article{
+    background-color:rgba(24, 116, 221, 0.781);
+    display: inline-block;
+    margin-top: 6% ;
+    margin-left: 2%;
+    padding-bottom: 2%;
+    border-radius: 15px;
+    width: 96%;
+}
+article h2{
+    margin-left: 24%;
+    margin-top: 3%;
+}
+article h2 span{
+    border-bottom: solid white;
+}
+article p, blockquote{
+    margin-right: 3%;
+    margin-left: 24%;
+    text-align: justify;
+}
+article img{
+    float: left;
+    margin-top: 7%;
+    margin-left: 2%;
+    border-radius: 15px;
+}
+article.button-home{
+    margin-left: 40%;
+}
+
+/*SEGUNDO ARTICLE*/
+.par {
+    background-color: rgba(187, 187, 187, 0.87);
+    color: black;
+    padding: 2% ;
+    width: 92%;
+    margin-top: 2%;
+}
+.par h2{
+    margin-left: 0% ;
+    margin-top: 1%;
+    
+}
+.par p {
+    margin-right: 24%;
+    margin-left: 0%;
+    text-align: justify ;   
+}
+.par img{
+    float: right;
+    margin-right: 0%;
+    margin-top: 7%;
+    border-radius: 15px;
+}
+
+/*tercer article*/
+.impar{
+   
+    margin-top: 2% ;
+}
+
+#home.par{
+    margin-top: 6%;
+  }
+.unique{
+    margin-top: 2%;
+  }
+/*boton de volver arriba*/
+.button-home{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: white;
+    border-style: solid;
+    border-color:rgb(24, 116, 221);
+    text-decoration: none;
+    color: black;
+    padding: 7px ;
+}
+.button-home{
+    margin-top: 20px;
+    display: inline-block
+}
+.button-home:hover{
+    background-color: rgb(24, 116, 221);
+    color: white;
+}
+
+/*article que contiene el video*/
+article.video{
+    background-color:   rgba(187, 187, 187, 0.87);
+    margin: 2% 26% ;
+    padding-bottom: 2%;
+    border-radius: 15px;
+    
+    width: fit-content;    
+}
+.video h2{
+    margin-left: 42%;
+}
+img.vertical{
+    width: 22%;
+    height: 35%;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+img.vertical2{
+    width: 22%;
+    height: 35%;
+    margin-top: 1%;
+    margin-right: 1%;
+}
+img.gif{
+    margin-left:1%;
+    margin-top: 2%;
+}
+img.gif2{
+    margin-right: 0%;
+    margin-top: 1%;
+}
+img.var{
+    margin-top: 1%;
+}
+img.var2{
+    margin-top: 4%;
+}
+/*Pasos de la seccion como se prepara*/
+em{
+    background: white;
+    font-family: unset;
+    font-style: normal;
+    padding:0%;
+    border-bottom: solid white;
+    color: rgb(24, 116, 221);
+}
+.destacado{
+   background-color: rgba(255, 99, 71, 0.76);
+   margin-left: 2%;
+   margin-top: 2%;
+   border-style: dotted ;
+   border-color: green;
+   border-width: 7px;  
+   width: 95%;
+   padding: 0%;
+}
+.destacado h2{
+    margin-left: 50%;
+    margin-top: 2%;
+    padding: 0%;
+}
+.destacado p{
+    margin-left: 3%;
+    padding-top: 1%;
+}
+.destacado img{
+    padding: 0%;
+    margin-left: 2%;
+    margin-top: 0%;
+}
+
+/*banderas*/
+.submenu  {
+    background-color: rgba(151, 140, 140, 0.705);
+    width: 70%;
+    height: 7%;
+    padding-left: 7%;
+    padding-bottom: 0%;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+.submenu img{
+    margin: 0% 7% 0% 1%;
+    overflow: hidden;   
+}
+.submenu img:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+}
+
+.submenu2{
+    background-color: rgba(151, 140, 140, 0.705);
+    width: 76%;
+    height: 7%;
+    padding-left: 1%;
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    margin-left: 2%;
+    margin-top: 1%;
+    
+    
+    
+}
+.submenu2 img{
+    margin: 0% 7% 0% 1%;
+    overflow: hidden;
+    
+}
+img.mat{
+    margin-right: 4%;
+    margin-left: 2%;
+}
+.submenu2 img:hover{
+    -webkit-transform:scale(1.2);transform:scale(1.2);
+}
+
+/*TABLAS*/
+/*posicion de tabla*/
+article.tabla{
+    margin-top: 1%;
+}
+article.tabla1{
+    margin-top: 6%;
+}
+article.tabla1 h2{
+    margin-left: 2%;
+    margin-top: 1%;
+}
+article.tabla1 p{
+    margin-left: 2%;
+    
+}
+
+article.tabla h2{
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+article.tabla p{
+    margin-left: 2%;
+}
+tr img{
+    margin: 0%;
+}
+table{
+    text-align: left;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 4%;
+    border-collapse: collapse;     
+    border-bottom: solid 2px white;
+}
+caption{
+    padding-bottom: 2%;
+    text-transform: uppercase;
+    color: white;
+    font-size: 120%;
+}
+tr{
+    padding-left: 2%;
+}
+tr:nth-child(even){
+    background-color: rgba(187, 187, 187, 0.562);
+}
+tr:hover{
+    background-color: rgb(245, 245, 245);
+    color: tomato;
+}
+th{
+    padding-top: 1%;
+    padding-left: 3%;
+    padding-bottom: 1%;
+    width: 3%;
+    
+}
+td{
+    width: 3%;
+    padding-left: 3%;
+}
+thead{
+    background-color: tomato;   
+    border-bottom: solid 1px white;
+}
+/*posicion de la tabla de marcas*/
+section.table{
+    width: 100%;
+    margin-left: 1%;
+}
+
+/*Formulario*/
+section.form{
+    background-color: rgba(24, 116, 221, 0.781);
+    width:80%;
+    margin-top: 6%;
+    margin-left: 2%;
+    border-radius: 15px;
+
+}
+.radio{
+    margin-left: 3%;
+    padding-bottom: 1% ;
+    height: 10%;
+}
+.form legend{
+    color: white;
+    font-size: 30px;
+    padding-top: 1% ;
+    padding-bottom:  2%  ;
+    text-align: left;
+    margin-left: 3%;
+    margin-top: 1%;
+    
+
+}
+input, textarea, select{
+    width: 92%;
+    margin-bottom: 1%;
+    margin-left: 3%;
+    padding: 1% ;
+    font-size: 13px ;
+    border: 3px;
+}
+input:focus{
+    background-color: rgba(255, 99, 71, 0.486);  
+}
+textarea:focus:{
+    background-color: rgba(255, 99, 71, 0.486);
+}
+
+select{
+    margin-bottom: 0%;
+    width: 94%;
+}
+select option{
+    margin-bottom: 0%;
+    color: black;
+    font-weight: bold;
+    
+}
+#default{
+    color: gray;
+}
+textarea{
+    min-height: 50px;
+    max-height: 200px;
+    max-width: 100%;
+}
+#boton{
+    background-color: tomato;
+    border-radius: 15px;
+    color: white;
+    padding: 20px;
+    width: 94%;
+}
+#boton:hover{
+    cursor: pointer;
+}
+legend.legend1{
+    margin-left: 0%;
+    padding: 0% 0% 1% 0%;
+    font-size: 15px;
+}
+
+.radio input{
+    width: 60px ;
+}
+.radiob{
+    padding: 0%;
+    margin: 0%;
+}
+
+/*color de referencia de boton radio*/
+label{
+    color: white;
+    margin-left: 1%;
+}
+ 
+/*PIE DE PAGINA*/
+footer{
+    margin-top: 1%;
+    background-image: url(/img/mate3.png);
+    background-repeat: no-repeat;
+    background-size: 5%;
+    background-position-x: right;
+    background-color: black;
+    padding-top: 2%; 
+    padding-bottom: 2%;
+    height: 100%;
+    color: blanchedalmond;
+    border-style: solid;
+    border-top-color: cornflowerblue;
+    border-left-color: black;
+    border-right-color: black;
+    border-bottom-color: black;
+}
